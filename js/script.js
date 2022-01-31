@@ -1,16 +1,3 @@
-const cats = [
-    {
-        name: "Blob",
-        age: 10
-    },
-    {
-        name: "Harold",
-    },
-    {
-        name: "Blurt",
-        age: 21
-    }
-];
 //oppgave 1
 
 function myFunction() {
@@ -46,3 +33,22 @@ resultsContainer.innerHTML = "<p>New paragraphs</p>"
 resultsContainer.style.backgroundColor = "yellow";
 
 //oppgave 7
+
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+];
+function createList(theCats) {
+    console.log(theCats)
+}
+
+createList(cats)
