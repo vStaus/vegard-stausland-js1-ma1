@@ -25,6 +25,8 @@ myFunction();
 document.querySelector("h3").innerHTML = "Updated heading"
 
 //oppgave 3
+const heading = document.querySelector("h3");
+heading.style.fontSize = "2em";
 
 // oppgave 4
 
