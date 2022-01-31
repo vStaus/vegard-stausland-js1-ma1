@@ -40,8 +40,9 @@ for (let para of allParagraphs) {
 }
 //oppgave 6
 
-var resultsContainer = document.querySelector(".results").innerHTML = "<p>New paragraph</p>";
+var resultsContainer = document.querySelector(".results")
+resultsContainer.innerHTML = "<p>New paragraphs</p>"
 
-document.body.style.backgroundColor = "yellow";
+resultsContainer.style.backgroundColor = "yellow";
 
 //oppgave 7
