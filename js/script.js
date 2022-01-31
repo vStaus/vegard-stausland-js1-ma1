@@ -22,7 +22,9 @@ function myFunction() {
 myFunction();
 
 //oppgave 2
-element = document.querySelectorAll(h3);
-var heading = h3; 
-    h3 = "h"
-console.log(heading)
+document.querySelector("h3").innerHTML = "Updated heading"
+
+//oppgave 3
+
+// oppgave 4
+
