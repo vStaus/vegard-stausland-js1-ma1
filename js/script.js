@@ -14,11 +14,15 @@ const cats = [
 //oppgave 1
 
 function myFunction() {
-    var cat = "complain";
-    console.log (cat);
+    const cat = [
+        {complain: "Meow!"}
+    ];
+    console.log ("Meow!");
 }
-console.log("Meow!");
 myFunction();
 
 //oppgave 2
-
+element = document.querySelectorAll(h3);
+var heading = h3; 
+    h3 = "h"
+console.log(heading)
