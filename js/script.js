@@ -45,4 +45,3 @@ var resultsContainer = document.querySelector(".results").innerHTML = "<p>New pa
 document.body.style.backgroundColor = "yellow";
 
 //oppgave 7
-function list()
