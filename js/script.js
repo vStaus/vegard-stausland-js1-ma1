@@ -43,3 +43,6 @@ for (let para of allParagraphs) {
 var resultsContainer = document.querySelector(".results").innerHTML = "<p>New paragraph</p>";
 
 document.body.style.backgroundColor = "yellow";
+
+//oppgave 7
+function list()
