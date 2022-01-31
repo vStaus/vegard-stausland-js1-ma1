@@ -29,4 +29,15 @@ const heading = document.querySelector("h3");
 heading.style.fontSize = "2em";
 
 // oppgave 4
+heading.classList.add("subheading")
 
+//oppgave 5
+
+var allParagraphs = document.querySelectorAll("p");
+
+for (let para of allParagraphs) {
+    para.style.color = "red";
+}
+//oppgave 6
+
+document.querySelector(div)
