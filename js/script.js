@@ -11,4 +11,14 @@ const cats = [
         age: 21
     }
 ];
+//oppgave 1
+
+function myFunction() {
+    var cat = "complain";
+    console.log (cat);
+}
+console.log("Meow!");
+myFunction();
+
+//oppgave 2
 
